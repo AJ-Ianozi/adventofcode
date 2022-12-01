@@ -1,4 +1,4 @@
-name = "adventofcode"
+name = "aoc_2022"
 description = "Shiny new project"
 version = "0.1.0-dev"
 
@@ -6,4 +6,4 @@ authors = ["AJ Ianozi"]
 maintainers = ["AJ Ianozi <aj@ianozi.com>"]
 maintainers-logins = ["AJ-Ianozi"]
 
-executables = ["adventofcode"]
+executables = ["aoc_2022"]

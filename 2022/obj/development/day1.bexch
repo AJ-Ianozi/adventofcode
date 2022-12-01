@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__day1.o
+[PROJECT FILES]
+/Users/aj/Projects/adventofcode/2022/aoc_2022.gpr
+20221201225931 030a81897108397a9f16d06b7821720f
+/Users/aj/Projects/adventofcode/2022/config/aoc_2022_config.gpr
+20221201225957 b3c3fe1ae0f6b29dc0c79e4c6cd346cc
+[BOUND OBJECT FILES]
+/Users/aj/Projects/adventofcode/2022/obj/development/day1.o
+[GENERATED SOURCE FILES]
+b__day1.ads
+b__day1.adb
+b__day1.ali
+[RESULTING OPTIONS]
+-L/Users/aj/Projects/adventofcode/2022/obj/development/
+-L/Users/aj/Projects/adventofcode/2022/obj/development/
+-L/users/aj/.config/alire/cache/dependencies/gnat_native_12.1.2_587b912f/lib/gcc/x86_64-apple-darwin19.6.0/12.1.0/adalib/
+-static
+/users/aj/.config/alire/cache/dependencies/gnat_native_12.1.2_587b912f/lib/gcc/x86_64-apple-darwin19.6.0/12.1.0/adalib/libgnat.a
