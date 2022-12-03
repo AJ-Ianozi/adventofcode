@@ -7,7 +7,7 @@ project Aoc_2022 is
    for Create_Missing_Dirs use "True";
    for Exec_Dir use "bin";
    for Main use ("day1.adb"
-               --  ,"day2.adb"
+                 ,"day2.adb"
                --   ,"day3.adb"
                --   ,"day4.adb"
                --   ,"day5.adb"
