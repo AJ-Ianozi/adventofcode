@@ -8,7 +8,7 @@ project Aoc_2022 is
    for Exec_Dir use "bin";
    for Main use ("day1.adb"
                  ,"day2.adb"
-               --   ,"day3.adb"
+                  ,"day3.adb"
                --   ,"day4.adb"
                --   ,"day5.adb"
                --   ,"day6.adb"
