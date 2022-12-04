@@ -34,7 +34,7 @@ procedure Day3 is
       Sum : Natural := 0;
    begin
       for C in Block.Set'Range loop
-         if Block.Set (C) > Block.Iterations-1 then
+         if Block.Set (C) > Block.Iterations - 1 then
             Sum := Sum + Lookup_Score (C);
          end if;
       end loop;
