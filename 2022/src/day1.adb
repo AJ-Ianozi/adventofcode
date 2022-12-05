@@ -4,8 +4,8 @@ with Ada.Containers.Vectors;
 
 procedure Day1 is
    --  Decided to use a vector for this, since it was the quickest
-   package Nat_Vect is new Ada.Containers.Vectors
-     (Index_Type => Natural, Element_Type => Natural);
+   package Nat_Vect is new Ada.Containers.Vectors (Index_Type => Natural,
+      Element_Type                                            => Natural);
    package Nat_Sort is new Nat_Vect.Generic_Sorting;
    use Nat_Vect, Nat_Sort;
 
