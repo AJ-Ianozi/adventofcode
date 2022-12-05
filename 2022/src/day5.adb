@@ -23,12 +23,6 @@ procedure Day5 is
       return Result;
    end Pop;
 
-   type Action is record
-      Count : Natural;
-      To    : Natural;
-      From  : Natural;
-   end record;
-
    --  This will hold our list of stacks.
    package Row is new Ada.Containers.Vectors (Index_Type => Natural,
       Element_Type                                       => Stack.Vector);
