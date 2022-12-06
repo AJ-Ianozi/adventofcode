@@ -11,7 +11,7 @@ project Aoc_2022 is
                   ,"day3.adb"
                   ,"day4.adb"
                   ,"day5.adb"
-               --   ,"day6.adb"
+                  ,"day6.adb"
                --   ,"day7.adb"
                --   ,"day8.adb"
                --   ,"day9.adb"
