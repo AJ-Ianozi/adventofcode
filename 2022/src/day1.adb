@@ -29,6 +29,7 @@ begin
          end if;
       end;
    end loop;
+   Close (My_File);
    --  Add whatever is left.  TODO: Stop doing this?
    Sums.Append (Sum);
    --  Now sort our vector

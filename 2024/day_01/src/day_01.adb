@@ -37,6 +37,7 @@ begin
          List2.Append (I2);
       end;
    end loop;
+   Close (F);
    --  Sort list
    Sorter.Sort (List1);
    Sorter.Sort (List2);
@@ -56,4 +57,5 @@ begin
       Sum := @ + (I * Count (List2, I));
    end loop;
    Put_Line (Sum'Image);
+
 end Day_01;

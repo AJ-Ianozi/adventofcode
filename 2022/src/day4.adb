@@ -45,7 +45,7 @@ begin
          end if;
       end;
    end loop;
+   Close (My_File);
    Put_Line ("Complete overlap: " & Sum1'Image);
    Put_Line ("Some overlap: " & Sum2'Image);
-   Close (My_File);
 end Day4;

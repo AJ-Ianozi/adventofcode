@@ -110,7 +110,7 @@ begin
          end if;
       end;
    end loop;
+   Close (F);
    Put_Line (Result'Image);
    Put_Line (Result_P2'Image);
-   Close (F);
 end Day_02;
